@@ -1,0 +1,31 @@
+{
+  "name": "tarrible-proxy",
+  "version": "1.0.0",
+  "description": "a proxy for rewritting tarball URLs, like for at NodeConf.",
+  "main": "index.js",
+  "bin": {
+    "tarrible-proxy": "./bin/tarrible-proxy"
+  },
+  "scripts": {
+    "start": "node ./bin/tarrible-proxy"
+  },
+  "keywords": [
+    "proxy"
+  ],
+  "author": {
+    "name": "Ben Coe",
+    "email": "ben@npmjs.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^3.9.3",
+    "request": "^2.57.0",
+    "yargs": "^3.10.0"
+  },
+  "maintainers": [
+    {
+      "name": "bcoe",
+      "email": "bencoe@gmail.com"
+    }
+  ]
+}
